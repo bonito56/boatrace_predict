@@ -557,7 +557,7 @@ if st.button("Predict"):
     # st.write(race_df)
 
     # 予測の実行
-    response = requests.post("http://localhost:8000/predict", json=race)
+    response = requests.post("https://boatrace-predict.onrender.com/predict", json=race)
     # st.write(response)
 
     # # 予測結果の表示
