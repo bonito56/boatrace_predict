@@ -13,4 +13,3 @@ fastapi
 pydantic
 scikit-learn
 lightgbm
-numpy
