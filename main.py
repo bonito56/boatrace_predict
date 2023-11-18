@@ -1,11 +1,7 @@
 from fastapi import FastAPI
 from fastapi.encoders import jsonable_encoder
 from pydantic import BaseModel
-from sklearn.ensemble import RandomForestClassifier
-import pickle
 import lightgbm as lgb
-import datetime
-import json
 import numpy as np
 
 # インスタンス化
