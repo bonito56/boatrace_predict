@@ -5,6 +5,6 @@ requests
 uvicorn
 fastapi
 pydantic
-sklearn
+scikit-learn
 lightgbm
 numpy
