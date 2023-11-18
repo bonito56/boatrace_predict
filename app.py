@@ -548,7 +548,6 @@ race = {
 "month" : int(yyyymmdd.strftime("%Y%m%d")[4:6])
 }
 
-st.write(yyyymmdd.strftime("%Y%m%d"))
 
 if st.button("Predict"):
     # 入力された説明変数の表示

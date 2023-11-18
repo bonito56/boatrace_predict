@@ -8,3 +8,9 @@ pydantic
 scikit-learn
 lightgbm
 numpy
+uvicorn
+fastapi
+pydantic
+scikit-learn
+lightgbm
+numpy
