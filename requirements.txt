@@ -2,3 +2,9 @@ streamlit
 numpy
 pandas
 requests
+uvicorn
+fastapi
+pydantic
+sklearn
+lightgbm
+numpy
