@@ -3,6 +3,7 @@ import streamlit as st
 import numpy as np
 import pandas as pd
 import requests
+from PIL import Image
 
 # タイトルとテキストを記入
 st.title('ボートレース予測🚤')
@@ -571,7 +572,10 @@ if st.button("Predict"):
     if response.status_code == 200:
         # 正常なレスポンスの処理
         prediction= response.json()["prediction"]
-        st.write(f'一着は{prediction}かも、、、')
+        # st.write(f'一着は{prediction}かも、、、')
+
+        img = Image.open(prediction+'.jpg')
+        st.image(img, caption=f'一着は{prediction}かも、、、')
 
     else:
         # エラーの処理
