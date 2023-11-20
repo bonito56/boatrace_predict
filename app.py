@@ -575,7 +575,8 @@ if st.button("Predict"):
         # st.write(f'一着は{prediction}かも、、、')
 
         img = Image.open(f'images/{prediction}.jpg')
-        st.image(img, caption=f'一着は{prediction}かも、、、')
+        st.image(img, width=150)
+        st.write(f'一着は{prediction}かも、、、')
 
     else:
         # エラーの処理
