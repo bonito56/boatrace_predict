@@ -574,7 +574,7 @@ if st.button("Predict"):
         prediction= response.json()["prediction"]
         # st.write(f'一着は{prediction}かも、、、')
 
-        img = Image.open(prediction+'.jpg')
+        img = Image.open(f'images/{prediction}.jpg')
         st.image(img, caption=f'一着は{prediction}かも、、、')
 
     else:
