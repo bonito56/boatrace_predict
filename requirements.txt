@@ -7,4 +7,4 @@ fastapi
 pydantic
 scikit-learn
 lightgbm
-PIL
+Pillow
